@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 String email=email_ip.getText().toString();
                 String password=password_ip.getText().toString();
 
-                startActivity(new Intent(MainActivity.this, Signin.class));
+                startActivity(new Intent(MainActivity.this,savedInstanceState.class));
 
                 Context context = null;
                 DatabaseHelper dbHelper = new DatabaseHelper(context);

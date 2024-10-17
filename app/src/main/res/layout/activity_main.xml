@@ -37,6 +37,7 @@
         android:inputType="textEmailAddress"
         android:padding="10dp"
         android:layout_marginTop="10dp"
+        android:minHeight="48dp"
         android:background="@drawable/rounded_corner" />
 
     <!-- Password Input Field -->
@@ -48,6 +49,7 @@
         android:inputType="textPassword"
         android:padding="10dp"
         android:layout_marginTop="10dp"
+        android:minHeight="48dp"
         android:background="@drawable/rounded_corner"/>
 
     <!-- Forgot Password -->
@@ -77,6 +79,7 @@
         android:text="Not a member? Register now"
         android:textColor="@android:color/holo_blue_dark"
         android:layout_marginTop="15dp"
+        android:minHeight="48dp"
         android:layout_gravity="center_horizontal"
         android:onClick="goToRegister"
         />
@@ -89,32 +92,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp">
 
-        <ImageButton
-            android:id="@+id/google_login"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/download"
-            android:background="@null"
-            android:contentDescription="Login with Google"
-            android:layout_marginEnd="15dp" />
-
-        <ImageButton
-            android:id="@+id/apple_login"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/download"
-            android:background="@null"
-            android:contentDescription="Login with Apple"
-            android:layout_marginEnd="15dp" />
-
-
-        <ImageButton
-            android:id="@+id/facebook_login"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@null"
-            android:src="@drawable/faccbook"
-            android:contentDescription="Login with Facebook" />
     </LinearLayout>
 
 </LinearLayout>
