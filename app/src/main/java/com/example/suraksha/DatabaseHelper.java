@@ -45,8 +45,8 @@ public class DatabaseHelper extends SQLiteOpenHelper
 
     }
     // Function to insert data into users_signup table
-    public boolean insertUserData(String name, String email, String password) {
-        SQLiteDatabase db = this.getWritableDatabase();  // Open the database for writing
+    public static boolean insertUserData( SQLiteDatabase db,String name, String email, String password) {
+       // SQLiteDatabase db = this.getWritableDatabase();  // Open the database for writing
         ContentValues contentValues = new ContentValues();  // Create an object to hold key-value pairs
 
         // Add values to ContentValues
