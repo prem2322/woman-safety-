@@ -13,7 +13,6 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginBottom="30dp"
-        android:layout_gravity="center_horizontal"
         android:src="@drawable/download"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/rounded_corner"/>
@@ -31,7 +30,7 @@
 
     <!-- Email Input Field -->
     <EditText
-        android:id="@+id/username_input"
+        android:id="@+id/signusername_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Your Username"
@@ -41,7 +40,7 @@
         android:background="@drawable/rounded_corner" />
 
     <EditText
-        android:id="@+id/email_input"
+        android:id="@+id/signemail_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Your Email Address"
@@ -52,7 +51,7 @@
 
     <!-- Password Input Field -->
     <EditText
-        android:id="@+id/password_input"
+        android:id="@+id/signpass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Your Password"
@@ -61,7 +60,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rounded_corner"/>
     <EditText
-        android:id="@+id/password_input2"
+        android:id="@+id/signconfirmpass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Confirm Your Password"
@@ -82,7 +81,7 @@
 
     <!-- Login Button -->
     <Button
-        android:id="@+id/login_button"
+        android:id="@+id/signlogin_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
