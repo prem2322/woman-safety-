@@ -78,8 +78,7 @@
         android:textColor="@android:color/holo_blue_dark"
         android:layout_marginTop="15dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="onClick"
-        android:clickable="true"
+        android:onClick="goToRegister"
         />
 
 
