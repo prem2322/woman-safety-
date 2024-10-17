@@ -45,7 +45,7 @@
         android:layout_marginBottom="20dp" />
 
     <EditText
-        android:id="@+id/username_input"
+        android:id="@+id/signusername_input"
         android:layout_width="327dp"
         android:layout_height="wrap_content"
         android:hint="Enter Your Username"
@@ -56,7 +56,7 @@
         android:background="@drawable/rounded_corner" />
 
     <EditText
-        android:id="@+id/email_input"
+        android:id="@+id/signemail_input"
         android:layout_width="327dp"
         android:layout_height="wrap_content"
         android:hint="Enter Your Email Address"
@@ -68,7 +68,7 @@
 
     <!-- Password Input Field -->
     <EditText
-        android:id="@+id/password_input"
+        android:id="@+id/signpass"
         android:layout_width="327dp"
         android:layout_height="wrap_content"
         android:hint="Enter Your Password"
@@ -78,7 +78,7 @@
         android:layout_gravity="center_horizontal"
         android:background="@drawable/rounded_corner"/>
     <EditText
-        android:id="@+id/password_input2"
+        android:id="@+id/signconfirmpass"
         android:layout_width="327dp"
         android:layout_height="wrap_content"
         android:hint="Confirm Your Password"
@@ -89,7 +89,7 @@
         android:background="@drawable/rounded_corner"/>
 
     <Button
-        android:id="@+id/login_button"
+        android:id="@+id/signlogin_button"
         android:layout_width="233dp"
         android:layout_height="42dp"
         android:text="CREATE ACCOUNT"
