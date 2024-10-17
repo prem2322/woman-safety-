@@ -59,6 +59,9 @@
     <color name="shadeLightPurple">#E1BEE7</color>
     <color name="shadeSoftPink">#F8BBD0</color>
     <color name="LIGHTBLUE">#EAF2FF</color>
+    <color name="LIGHTPINK">#F6DCDC</color>
+    <color name="pitchblack">#2C3643</color>
+
 
 
 </resources>
